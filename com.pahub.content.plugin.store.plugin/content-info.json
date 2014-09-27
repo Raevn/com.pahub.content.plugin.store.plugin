@@ -1,0 +1,33 @@
+{
+    "content_id": "com.pahub.content.store.plugin",
+    "store_id": "com.pahub.content.store.plugin",
+    "display_name": "Plugin Store",
+    "description": "(Store) Manage installed Plugins",
+    "author": "Raevn",
+    "version": "0.0.0",
+    "date": "2014/08/28",
+    "loc_data": [
+        {
+            "locale_id": "en-us",
+            "data": {
+                "Content_Hub_Plugin": "Store - Plugins",
+                "core-content_description": ""
+            }
+        }
+    ],
+    "resources": [
+        "com.pahub.content.plugin.store.plugin.js"
+    ],
+    "load_func": "load_store_plugin",
+    "unload_func": "unload_store_plugin",
+    "content_enabled_func": "store_plugin_enabled",
+    "content_disabled_func": "store_plugin_disabled",
+    "local_content_path": "pahub/content/plugin",
+    "content_name": "Plugin",
+    "enabled": true,
+    "content_colour": [
+        0,
+        70,
+        128
+    ]
+}
