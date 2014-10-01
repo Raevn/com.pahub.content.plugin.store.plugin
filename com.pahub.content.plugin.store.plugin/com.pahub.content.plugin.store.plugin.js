@@ -6,7 +6,7 @@ function unload_store_plugin(data) {}
 
 function store_plugin_enabled(content) {
 	if (pahub.api.plugin.getPluginLoaded(content.content_id) == false) {
-		pahub.api.plugin.loadPlugin(content.local_path);
+		pahub.api.plugin.loadPlugin(path.dirname(content.url));
 	}
 }
 
