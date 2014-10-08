@@ -27,7 +27,7 @@
     "enabled": true,
     "content_colour": [
         0,
-        70,
-        128
+        140,
+        255
     ]
 }
