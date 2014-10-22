@@ -12,6 +12,9 @@ function store_plugin_enabled(content) {
 
 function store_plugin_disabled(content) {
 	if (pahub.api.plugin.getPluginLoaded(content.content_id) == true) {
+		if (pahub.api.content.contentStoreExists(content.content_id) == true) {
+			pahub.api.content.removeContentStore(content.content_id);
+		}
 		pahub.api.plugin.unloadPlugin(content.content_id);
 	}
 }
