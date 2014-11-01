@@ -4,17 +4,8 @@
     "display_name": "Plugin Store",
     "description": "(Store) Manage installed Plugins",
     "author": "Raevn",
-    "version": "0.0.1",
-    "date": "2014/10/23",
-    "loc_data": [
-        {
-            "locale_id": "en-us",
-            "data": {
-                "Content_Hub_Plugin": "Store - Plugins",
-                "core-content_description": ""
-            }
-        }
-    ],
+    "version": "0.1.0",
+    "date": "2014/11/01",
     "resources": [
         "com.pahub.content.plugin.store.plugin.js"
     ],
