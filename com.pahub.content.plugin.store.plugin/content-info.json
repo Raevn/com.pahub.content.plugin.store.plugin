@@ -4,8 +4,8 @@
     "display_name": "Plugin Store",
     "description": "(Store) Manage installed Plugins",
     "author": "Raevn",
-    "version": "0.1.0",
-    "date": "2014/11/01",
+    "version": "0.2.0",
+    "date": "2014/11/04",
     "resources": [
         "com.pahub.content.plugin.store.plugin.js"
     ],
@@ -21,5 +21,9 @@
         0,
         140,
         255
-    ]
+    ],
+    "required": {
+        "com.pahub": ">=0.2.0",
+        "com.pahub.content.plugin.contenthub": ">=0.2.0"
+    }
 }
