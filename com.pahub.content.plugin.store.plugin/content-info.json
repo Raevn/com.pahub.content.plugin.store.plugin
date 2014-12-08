@@ -23,7 +23,7 @@
         255
     ],
     "required": {
-        "com.pahub": ">=0.2.0",
+        "com.pahub": ">=0.4.0",
         "com.pahub.content.plugin.contenthub": ">=0.2.0"
     }
 }
